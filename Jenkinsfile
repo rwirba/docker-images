@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/your-org/your-repo.git', branch: 'main'
+                git url: 'https://github.com/rwirba/docker-images.git', branch: 'main'
             }
         }
 
